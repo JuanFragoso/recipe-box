@@ -32,6 +32,24 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# HTML Abstraction Markup Language designed to express document structure
+gem 'haml', '~> 4.0.6'
+
+# Forms made easy!
+gem 'simple_form', '~> 3.1.0'
+
+# Twitter's Bootstrap, converted to Sass and ready to drop into Rails 
+gem 'bootstrap-sass', '~> 3.3.3'
+
+# Easy upload management for ActiveRecord
+gem 'paperclip', '~> 4.2.1'
+
+# Unobtrusive nested forms handling, using jQuery.
+gem 'cocoon', '~> 1.2.6'
+
+# Devise is a flexible authentication solution
+gem 'devise', '~> 3.4.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
