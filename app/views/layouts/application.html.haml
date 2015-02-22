@@ -6,7 +6,7 @@
 	= javascript_include_tag "application", "data-turbolinks-track" => true
 	= csrf_meta_tags
 %body
-	%nav.navbar-default
+	%nav.navbar.navbar-default
 		.container
 			.navbar-brand= link_to "Recipe Box", root_path
 
@@ -22,5 +22,5 @@
 	.container
 		-flash.each do |name, msg|
 			= content_tag :div, msg, class: "alert"
-	= yield
+		= yield
 
